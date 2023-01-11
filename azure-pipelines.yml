@@ -10,7 +10,6 @@ pool:
   vmImage: 'windows-latest'
   name: HuseyinPool
   demands:
-  -agent.name -equals HuseyinPool
 
 variables:
   solution: '**/*.sln'
