@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'linux-ubuntu'
+  vmImage: 'windows-latest'
   name: 'HuseyinPool'
 
 variables:
